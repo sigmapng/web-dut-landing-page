@@ -67,7 +67,27 @@
 }
 
 .services-wrap {
-  
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10%;
+}
+
+.services-wrap div:first-child {
+  width: 40%;
+}
+
+.services {
+  display: flex;
+  width: 40%;
+  column-gap: 50px;
+}
+
+.services p {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 10px 0;
 }
 
 @media (max-width: 800px) {
