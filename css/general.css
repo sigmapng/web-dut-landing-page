@@ -4,7 +4,7 @@
   --text-color-hover: #2b2b2ba7;
   --hover-transition: 0.2s ease-in-out;
   --download-btn-color: #423F3E;
-  --change-mode-btn-color: #2b2b2b2b;
+  --shadow-color: #3928A626;
 }
 
 * {
@@ -15,7 +15,6 @@
 .dark-mode {
   --bg-color: #2B2B2B;
   --text-color: #EBEBEB;
-  --change-mode-btn-color: #ededed26;
 }
 
 .container {
@@ -23,7 +22,6 @@
   color: var(--text-color);
   font-family: 'Nunito Sans', sans-serif;
   width: 100vw;
-  padding: 20px 100px;
   max-width: 2000px;
   box-sizing: border-box;
   font-size: 16px;
@@ -31,16 +29,14 @@
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 700;
   text-align: center;
-  padding: 0 150px;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 700;
-  margin: 30px 0;
 }
 
 a {
@@ -57,28 +53,19 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 5%;
 }
 
 header div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 97%;
+  width: 100%;
 }
 
 .logo-wrap {
   width: 60px;
   height: 60px;
   background-color: #C4C4C4;
-}
-
-.change-mode-btn {
-  width: 20px;
   cursor: pointer;
-}
-
-@media (max-width: 800px) {
-  .container {
-    padding: 20px 50px;
-  }
 }

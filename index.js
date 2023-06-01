@@ -6,7 +6,6 @@ const logos = document.getElementsByClassName("social-media-logo");
 imgIcon.onclick = function () {
   document.body.classList.toggle("dark-mode");
   if (document.body.classList.contains("dark-mode")) {
-    imgIcon.src = "img/sun.png";
     for (let i = 0; i < logos.length; i++) {
       const logo = logos[i];
       const originalSrc = logo.getAttribute("src");
@@ -18,7 +17,6 @@ imgIcon.onclick = function () {
       logo.setAttribute("src", newSrc);
     }
   } else {
-    imgIcon.src = "img/moon.png";
     for (let i = 0; i < logos.length; i++) {
       const logo = logos[i];
       const originalSrc = logo.getAttribute("src");
@@ -31,4 +29,3 @@ imgIcon.onclick = function () {
     }
   }
 };
-

@@ -1,0 +1,78 @@
+.download-btn {
+  background-color: var(--download-btn-color);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  border: unset;
+  cursor: pointer;
+  transition: var(--hover-transition);
+}
+
+.download-btn:hover {
+  opacity: 70%;
+}
+
+.nav-links a {
+  margin: 0 5px;
+}
+
+.intro-div {
+  height: 90vhs;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 10%;
+}
+
+.intro-div h4 {
+  text-align: center;
+}
+
+.product-section {
+  display: flex;
+  padding: 0 10%;
+  column-gap: 30px;
+  row-gap: 30px;
+  margin-bottom: 60px;
+}
+
+.product-section div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.read-more-section {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.read-more-section section {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.read-more-section section p {
+  margin: 30px 0 10px;
+}
+
+#big-img {
+  width: 40%;
+}
+
+.services-wrap {
+  
+}
+
+@media (max-width: 800px) {
+  .product-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}

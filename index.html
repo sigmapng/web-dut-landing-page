@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing page</title>
-  <link rel="stylesheet" href="general.css">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap"
@@ -19,85 +19,87 @@
   <div class="container">
     <header>
       <div>
-        <div class="logo-wrap"></div>
+        <div class="logo-wrap" id="mode-icon"></div>
         <ul class="nav-links">
           <a href="">Product</a>
           <a href="">About</a>
           <a href="">Contacts</a>
         </ul>
-        <a href="" class="download-btn">Download Now</a>
+        <button class="download-btn">Download Now</button>
       </div>
-      <img src="img/moon.png" alt="" class="change-mode-btn" id="mode-icon">
     </header>
 
-    <div class="intro-div">
-      <h1>Fast and powerful, just like your work</h1>
-      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. </h4>
-    </div>
+    <main>
+      <div class="intro-div">
+        <h1>Fast and powerful, just like your work</h1>
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. </h4>
+      </div>
 
-    <div class="product-section">
-      <div>
-        <h2>Nulla commodo aliqua aliqua ut</h2>
+      <div class="product-section">
+        <div>
+          <h2>Nulla commodo aliqua aliqua ut</h2>
 
-        <div class="read-more-section">
-          <section>
-            <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
-            <div>
-              <a href=""> Read more</a>
-              <img src="img/arrow.svg" alt="">
-            </div>
-          </section>
+          <div class="read-more-section">
+            <section>
+              <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+              <div>
+                <a href=""> Read more</a>
+                <img src="img/arrow.svg" alt="">
+              </div>
+            </section>
 
-          <section>
-            <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
-            <div>
-              <a href=""> Read more</a>
-              <img src="img/arrow.svg" alt="">
-            </div>
-          </section>
+            <section>
+              <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+              <div>
+                <a href=""> Read more</a>
+                <img src="img/arrow.svg" alt="">
+              </div>
+            </section>
 
+          </div>
+        </div>
+
+        <img src="img/big-img.png" alt="" id="big-img">
+      </div>
+
+      <div class="services-wrap">
+        <div>
+          <h4>Nulla ut ea</h4>
+          <p>Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident. Exercitation
+            velit ea incididunt</p>
+        </div>
+        <div class="services">
+          <p>Graphic Design</p>
+          <p>UX Design</p>
+          <p>Prototyping</p>
+          <p>Webflow</p>
+          <p>Branding</p>
+          <p>Coding</p>
+          <p>Back-End</p>
         </div>
       </div>
 
-      <img src="img/big-img.png" alt="" id="big-img">
-    </div>
-
-    <div class="services-wrap">
       <div>
-        <h4>Nulla ut ea</h4>
-        <p>Reprehenderit esse labore id veniam ut veniam non ex adipisicing amet ullamco dolor proident. Exercitation
-          velit ea incididunt</p>
+        <h5>Where teams design together</h5>
+        <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
+        <div>
+          <img src="img/small-img.png" alt="">
+          <img src="img/small-img.png" alt="">
+          <img src="img/small-img.png" alt="">
+        </div>
       </div>
-      <div class="services">
-        <p>Graphic Design</p>
-        <p>UX Design</p>
-        <p>Prototyping</p>
-        <p>Webflow</p>
-        <p>Branding</p>
-        <p>Coding</p>
-        <p>Back-End</p>
-      </div>
-    </div>
 
-    <div>
-      <h5>Where teams design together</h5>
-      <p>Lorem quis sunt magna dolor consectetur aliqua officia laborum reprehenderit</p>
       <div>
-        <img src="img/small-img.png" alt="">
-        <img src="img/small-img.png" alt="">
-        <img src="img/small-img.png" alt="">
+        <h2>Nulla commodo aliqua aliqua ut</h2>
+        <div>
+          <div class="team-member-card"></div>
+          <div class="team-member-card"></div>
+        </div>
       </div>
-    </div>
-
-    <div>
-      <h2>Nulla commodo aliqua aliqua ut</h2>
-      <div>
-        <div></div>
-        <div></div>
-      </div>
-    </div>
+    </main>
 
     <footer>
       <img src="img/figma-logo-vector.svg" alt="">
