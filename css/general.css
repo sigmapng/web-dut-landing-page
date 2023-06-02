@@ -39,6 +39,11 @@ h2 {
   font-weight: 700;
 }
 
+h5 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
 a {
   color: var(--text-color);
   text-decoration: none;
@@ -68,4 +73,26 @@ header div {
   height: 60px;
   background-color: #C4C4C4;
   cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+}
+
+.social-media-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer div * {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.social-media-wrap p:last-child {
+  width: 55%;
 }
